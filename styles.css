@@ -1,0 +1,146 @@
+/* TODO Question No.02 */
+
+* {
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.questionHeading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.parentClass {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.childClass {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    border: 2px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.imageClass {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+.HeadingClass {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: grey;
+    height: 10%;
+    color: white;
+}
+
+.buttonClass {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.buybutton {
+    padding: 8px 25px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 22px;
+}
+
+/* TODO Question No.03 */
+
+.studentData {
+    border-spacing: 10px 5px;
+}
+
+.tableRow {
+    text-align: center;
+}
+
+.deleteButton {
+    cursor: pointer;
+}
+
+/* TODO Question No.04 */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carImage {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* TODO Question No.05 */
+
+body {
+    text-align: center;
+    margin: 50px;
+}
+
+#counter {
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+.buttonSection {
+    display: flex;
+    justify-content: center;
+}
+
+.numberButton {
+    border-radius: 60px;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 15px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#incremental {
+    color: white;
+    background-color: green;
+}
+
+#decremental {
+    color: white;
+    background-color: red;
+}

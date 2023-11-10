@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Assignment #08</title>
+</head>
+<body>
+    
+    <!--! Chapter 43 to 48 -->
+
+    <!--TODO Question No.01 -->
+
+    <div class="questionHeading">
+        <h1>Question No.01</h1>
+    </div>
+
+    <a href="https://github.com/Muhammad-ameen356/SMIT-3to5" onclick="alert('Github Link.')">Github Link!!</a>
+
+    <!--TODO Question No.02 -->
+
+    <div class="questionHeading">
+        <h1>Question No.02</h1>
+    </div>
+
+    <div class="heading">
+        <h1>Mobile Phones Lookup</h1>
+    </div>
+
+    <div class="parentClass">
+
+        <div class="childClass" onclick="alert('Thanks For Purchasing a Phone From Us!')">
+            <div class="imageClass">
+                <img class="image" src="https://images.priceoye.pk/apple-iphone-15-pro-max-pakistan-priceoye-l58e8.jpg" alt="iPhone 15 Image">
+            </div>
+            <div class="HeadingClass"><p>iPhone 15 Pro Max</p></div>
+            <div class="buttonClass">
+                <button class="buybutton">Buy</button>
+            </div>
+        </div>
+
+        <div class="childClass" onclick="alert('Thanks For Purchasing a Phone From Us!')">
+            <div class="imageClass">
+                <img class="image" src="https://www.pakmobizone.pk/wp-content/uploads/2022/08/Samsung-Galaxy-S23-Ultra-5G-Lavender-1.jpg" alt="Samsung S23 Image">
+            </div>
+            <div class="HeadingClass"><p>Samsung S23</p></div>
+            <div class="buttonClass">
+                <button class="buybutton">Buy</button>
+            </div>
+        </div>
+
+        <div class="childClass" onclick="alert('Thanks For Purchasing a Phone From Us!')">
+            <div class="imageClass">
+                <img class="image" src="https://myshop.pk/pub/media/catalog/product/cache/badc1d10053babad93ba2ef2941284a4/g/o/google_pixel_7-myshop-pk-10_1.jpg" alt="OnePlus 11 Image">
+            </div>
+            <div class="HeadingClass"><p>Google Pixel 7</p></div>
+            <div class="buttonClass">
+                <button class="buybutton">Buy</button>
+            </div>
+        </div>
+        
+        <div class="childClass" onclick="alert('Thanks For Purchasing a Phone From Us!')">
+            <div class="imageClass">
+                <img class="image" src="https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1672109676009/036b01e1f094c85703f752f4ba2ff463.png" alt="Vivo X90 Image">
+            </div>
+            <div class="HeadingClass"><p>Vivo X90</p></div>
+            <div class="buttonClass">
+                <button class="buybutton">Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <!--TODO Question No.03 -->
+
+    <div class="questionHeading">
+        <h1>Question No.03</h1>
+    </div>
+
+    <table class="studentData">
+        <tr class="tableRow">
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th></th>
+        </tr>
+        <tr class="tableRow" id="tableRow1">
+            <td>01</th>
+            <td>Muhammad</td>
+            <td>8th Semester</td>
+            <td><button class="deleteButton" onclick="deleteRow('tableRow1')">Delete</button></td>
+        </tr>
+        <tr class="tableRow" id="tableRow2">
+            <td>02</td>
+            <td> Ali</td>
+            <td>2nd Semester</td>
+            <td><button class="deleteButton" onclick="deleteRow('tableRow2')">Delete</button></td>
+        </tr>
+        <tr class="tableRow" id="tableRow3">
+            <td>03</td>
+            <td>Shah Hammad</td>
+            <td>3rd Semester</td>
+            <td><button class="deleteButton" onclick="deleteRow('tableRow3')">Delete</button></td>
+        </tr>
+        <tr class="tableRow" id="tableRow4">
+            <td>04</td>
+            <td>Uzair</td>
+            <td>1st Semester</td>
+            <td><button class="deleteButton" onclick="deleteRow('tableRow4')">Delete</button></td>
+        </tr>
+    </table>
+
+    <!--TODO Question No.04 -->
+
+    <div class="questionHeading">
+        <h1>Question No.04</h1>
+    </div>
+
+    <h1>An Image</h1>
+
+    <div class="carImage">
+        <img src="https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmlzc2FuJTIwcjM1JTIwZ3RyfGVufDB8fDB8fHww" alt="" onmouseover="src='https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4aWKu7Tjm1g/v1/-1x-1.jpg'" onmouseout="src='https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmlzc2FuJTIwcjM1JTIwZ3RyfGVufDB8fDB8fHww'">
+    </div>
+
+    <!--TODO Question No.05 -->
+
+    <div class="questionHeading">
+        <h1>Question No.05</h1>
+    </div>
+
+    <h1>Counter</h1>
+    <div id="counter">0</div>
+    <div class="buttonSection">
+        <div><button class="numberButton" id="incremental" onclick="increase()">Increase</button></div>
+        <div><button class="numberButton" id="decremental" onclick="decrease()">Decrease</button></div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
